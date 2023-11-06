@@ -1,0 +1,31 @@
+{
+  "name": "threetopdesktop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "next export",
+    "prestart": "next start -p 4000",
+    "serve": "serve -s out -l 4000",
+    "clean": "rm -rf out",
+    "predeploy": "npm run build && npm run export && npm run clean"
+  },
+  
+  "dependencies": {
+    "firebase": "^10.5.2",
+    "next": "14.0.1",
+    "next-pwa": "^5.6.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
