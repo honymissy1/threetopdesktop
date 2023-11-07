@@ -338,20 +338,6 @@ export default async function Id({ params }) {
                       <img src={ele} alt="wow" />
                     ))
                   }
-
-{
-                    data.files.map(ele => (
-                      // <Image src={ele} alt="inserted" height="300"  width="300"/>
-                      <img src={ele} alt="wow" />
-                    ))
-                  }
-
-{
-                    data.files.map(ele => (
-                      // <Image src={ele} alt="inserted" height="300"  width="300"/>
-                      <img src={ele} alt="wow" />
-                    ))
-                  }
               </div>
 
             </div>
